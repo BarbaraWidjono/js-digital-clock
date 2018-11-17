@@ -15,7 +15,7 @@ $(document).ready(() => {
 
   function changeTime(){
     let time = function time(){
-      return Date.now();
+      return new Date();
     };
 
     let newTime = time();
